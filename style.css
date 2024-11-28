@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* color section */
+:root {
+    --main-color: #0A1128; /* Deep navy */
+    --Darkblue: #001F54;   
+    --Mediumblue: #034078;  
+    --white: #FEFCFB;     
+    --Cyanblue: #1282A2;     /* Cyan blue */
+    --light-color: #888;  /* Gray for lighter text */
+    --light-bg: #eee;     /* Light gray for background */
+    --border: .1rem solid rgba(0, 0, 0,0.2); /* Border with light opacity */
+ }
+ 
+ *::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+ }
+ 
+ *::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ *::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+ }
+
+/* universel selector */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+/* Navbar design start */
+nav{
+    background-color: var(--Mediumblue);
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+}
+.logo{
+    position: relative;
+    right: 10vw;
+    height: 50px;
+    border-radius: 75px;
+}
+.nav-link-li{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+}
+
+ /* home page css */
+ /* --------course page css --------*/
+ .heading{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .container-course{
+    background-color: var(--Darkblue);
+    border-radius: 10px;
+    padding: 40px;
+ }
+ .col{
+    color: var(--light-bg);
+ }
+ .card-body a{
+    text-decoration: none;
+    background-color: var(--Darkblue);
+    color: var(--white);
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+ }
+ /* footer design */
+ .container-footer{
+    background-color: var(--Darkblue);
+    margin-top: 10px;
+ }
+ .footer-row{
+    padding-top: 20px;
+ }
+ .col-use-link a{
+    text-decoration: none;
+    color: var(--white);
+ }
+ /* ------course page end ----------- */
+ /* news page css */
+
+ /* -------about page css------- */
+ /* vision and mission card style */
+ .container-mission{
+    background-color: var(--Darkblue);
+    height: 200px;
+    margin-top: 1px;
+ }
+ .container-mission .card{
+    margin-top: 20px;
+    color: #0A1128;
+ }
+ /* people cantainer style */
+ .container-people{
+    background-color: var(--Darkblue);
+    margin-top: 5px;
+ }
+ .people{
+    color: var(--white);
+    padding: 10px;
+    height: 100px;
+ }
+ /* ------about page end------ */
+
+ /* -------contact page css ------*/
+ /* input filed start */
+ .main-div{
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.signup-form{
+    background-color: var(--white);
+    width: 430px;
+    border-radius: 5px;
+}
+
+.form-heading{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+h2{
+    padding-bottom:5px ;
+}
+.input-filed{
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+input{
+    padding: 8px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+    font-size:15px ;
+}
+.half-width{
+    display: flex;
+    width: 48%;
+}
+.full-width{
+    display: flex;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.button-div{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.submit-btn{
+    border:0;
+    background-color: var(--Darkblue);
+    color: #fff;
+    padding: 8px 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* input filed end */
+/* map start */
+.map{
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-color);
+    margin-top: 1px;
+}
+/*map end*/
+ /*------contact page end--------*/
