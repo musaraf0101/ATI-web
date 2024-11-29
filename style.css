@@ -260,6 +260,9 @@ a{
     font-size: 30px;
     text-align: center;
  }
+ .card-text{
+    color: var(--main-color);
+ }
   /* -------sydicates page end----- */
 
  /* media */
