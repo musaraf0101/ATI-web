@@ -41,7 +41,7 @@ nav{
     width: 100%;
 }
 .navbar img{
-    border-radius: 75%;
+    border-radius:98%;
 }
 .dropdown ul{
     background-color: var(--Mediumblue);
@@ -264,6 +264,12 @@ a{
     color: var(--main-color);
  }
   /* -------sydicates page end----- */
+
+  /* ----- HND page design start---------- */
+
+ 
+
+  /* ----HND page design end---------- */
 
  /* media */
  @media(min-width:401){
