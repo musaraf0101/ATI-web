@@ -245,6 +245,22 @@ a{
 }
 /*map end*/
  /*------contact page end--------*/
+ /* -------sydicates page start----- */
+ .row-card{
+    margin: 50px;
+ }
+ .head-people{
+    margin:15px 0px;
+    background-color: var(--Darkblue);
+    width: 100%;
+    color: var(--white);
+    padding: 15px;
+ }
+ .head-people h3{
+    font-size: 30px;
+    text-align: center;
+ }
+  /* -------sydicates page end----- */
 
  /* media */
  @media(min-width:401){
