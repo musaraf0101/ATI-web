@@ -43,6 +43,19 @@ nav{
 .navbar img{
     border-radius: 75%;
 }
+.login{
+    background-color: var(--Darkblue);
+    width: 100px;
+    padding: 0px 20px;
+    text-align: center;
+    color: var(--main-color);
+    border-radius: 7px;
+}
+.login:hover{
+    background-color: var(--Mediumblue);
+    border-radius: 7px;
+    transition: 0.5s;
+}
  /* -----------home page css-------------- */
  /* Container holding the image and the text */
 .container-imgtext {
