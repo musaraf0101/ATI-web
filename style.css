@@ -43,6 +43,13 @@ nav{
 .navbar img{
     border-radius: 75%;
 }
+.dropdown ul{
+    background-color: var(--Mediumblue);
+    border: none;
+}
+.dropdown ul li a:hover{
+    background-color: var(--Mediumblue);
+}
 .login{
     background-color: var(--Darkblue);
     width: 100px;
@@ -56,6 +63,21 @@ nav{
     border-radius: 7px;
     transition: 0.5s;
 }
+/* navbar design end */
+ /* footer design */
+ .container-footer{
+    background-color: var(--Darkblue);
+    margin-top: 10px;
+ }
+ .footer-row{
+    padding-top: 20px;
+ }
+ .col-use-link a{
+    text-decoration: none;
+    color: var(--white);
+ }
+/* footer design end */
+
  /* -----------home page css-------------- */
  /* Container holding the image and the text */
 .container-imgtext {
@@ -116,18 +138,6 @@ nav{
     border: none;
     border-radius: 7px;
  }
- /* footer design */
- .container-footer{
-    background-color: var(--Darkblue);
-    margin-top: 10px;
- }
- .footer-row{
-    padding-top: 20px;
- }
- .col-use-link a{
-    text-decoration: none;
-    color: var(--white);
- }
  /* ------course page end ----------- */
  /* news page css */
 
@@ -156,6 +166,11 @@ nav{
  /* ------about page end------ */
 
  /* -------contact page css ------*/
+ .contact-main-div{
+    background-color: var(--light-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
  /* input filed start */
  .main-div{
     background-color: var(--light-color);
@@ -178,6 +193,7 @@ nav{
 }
 h2{
     padding-bottom:5px ;
+    color: var(--main-color);
 }
 .input-filed{
    padding: 10px;
@@ -187,10 +203,10 @@ h2{
 }
 input{
     padding: 8px;
+    margin-top: 10px;
     border:1px solid #ccc;
     border-radius: 5px;
     width: 100%;
-    margin: 10px;
     font-size:15px ;
 }
 .half-width{
