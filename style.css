@@ -304,14 +304,17 @@ a{
    margin: 10px;
   }
   .user-div{
-   /* display: flex; */
    padding: 10px;
   }
   .user-div a{
    position: relative;
-   left: 100px;
+   right: 35px;
    text-decoration: none;
    color: var(--main-color);
+  }
+  .user-div .second{
+   position: relative;
+   left: 35px;
   }
   .button-div-form{
    display: flex;
