@@ -267,10 +267,64 @@ a{
   /* -------sydicates page end----- */
 
   /* ----- HND page design start---------- */
-
- 
-
   /* ----HND page design end---------- */
+  /* user login and admin login design start */
+  .main-div-form{
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+   background-color: var(--light-color);
+   width: 100vw;
+   height: 100%;
+   padding: 100px;
+  }
+  form{
+   border: 1px solid rgba(0, 0, 0,.3);
+   border-radius: 10px;
+   height: 350px;
+   width: 500px;
+  }
+  .heading-div{
+   text-align: center;
+  }
+  .heading-div h2{
+   font-weight: bold;
+   margin-top: 30px;
+  }
+  .input-div-form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  input{
+   text-align: center;
+   width: 350px;
+  }
+  .username-div,.password-div,.button-div-form{
+   margin: 10px;
+  }
+  .user-div{
+   /* display: flex; */
+   padding: 10px;
+  }
+  .user-div a{
+   position: relative;
+   left: 100px;
+   text-decoration: none;
+   color: var(--main-color);
+  }
+  .button-div-form{
+   display: flex;
+  }
+  .button-div-form button{
+   justify-content: center;
+   padding: 10px 30px;
+   border: none;
+   border-radius:5px;
+   background-color: var(--Darkblue);
+   color: var(--white);
+  }
+  /* user login and admin login design end */
 
  /* media */
  @media(min-width:401){
